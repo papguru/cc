@@ -205,4 +205,29 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
     right: 1px;
     top: 42%;
     display: none;
-  
+   .post-title,.status-msg-wrap,.blog-pager,.blog-feeds,.widget-item-control {
+display: none;
+}
+  .loadmore{
+text-align:center;
+display: block;
+}
+  .loadmore a{
+    background: #8955fc;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    justify-content: center;
+    padding: 7px 14px;
+    text-align: center;
+   
+
+}
+
+  .loadmore a:hover{
+background: #000;
+   color: #fff;
+}

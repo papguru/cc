@@ -62,7 +62,7 @@ a {
 
 .prathyoush-list{
 
-    display: block;
+    display: inline-block;
 
     text-align: center;
 }

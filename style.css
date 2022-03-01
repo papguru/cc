@@ -13,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-   font-family: 'Poppins', sans-serif;
+   font-family: open sans,sans-serif;
     font-weight: 400;
     background: #f5f8fc;
 }
@@ -239,4 +239,15 @@ font-size:18px;
 .infinite-scroll-error{
   color: #8955fc;
 font-size:18px;
+}
+
+h1, h2 {
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    float: left;
+    width: 100%;
+    font-weight: 300;
+    color: #444;
+    font-family: Arial;
 }

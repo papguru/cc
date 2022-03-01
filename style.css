@@ -183,28 +183,4 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 #back2Top:hover {
   opacity: 0.5;
 }
-     </style>
-    </head>
-    <body>
-   
-   
-
-        <div class="prath_header">
-            <div class="site-branding-text">
-            <p class="site-title"><a href="/" rel="home">Happyface.net</a></p>
-            </div>
-        </div>
-        <div class="prath_cont">
-	          <style>
-	    #prathyoush-alert {
-    background-color: #1fd1f9;
-background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
-    color: #fff;
-    font-size: 20px;
-    padding: 5px 10px;
-    position: fixed;
-    right: 1px;
-    top: 42%;
-    display: none;
-
-}
+  

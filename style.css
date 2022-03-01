@@ -119,8 +119,7 @@ text-align: center;
     color: #8955fc;
 
 }
-		/* prathyoush-load
-------------------------- */
+
 
 .prathyoush-load {
   font-size: 20px;
@@ -167,7 +166,7 @@ text-align: center;
   animation-name: slide;
 }
 
-/* stylelint-disable-next-line no-duplicate-selectors */
+
 .prathyoush-load__dot:nth-child(4) {
   animation-name: reveal;
   animation-direction: reverse;

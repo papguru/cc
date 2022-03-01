@@ -233,3 +233,11 @@ display: block;
 background: #000;
    color: #fff;
 }
+.infinite-scroll-last{
+  color: #8955fc;
+font-size:18px;
+}
+.infinite-scroll-error{
+  color: #8955fc;
+font-size:18px;
+}

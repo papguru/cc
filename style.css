@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+    font-weight: 400;
+    background: #f5f8fc;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    line-height: 1.5;
+
+}
+
+*, body, html {
+    box-sizing: border-box;
+}
+.container {
+max-width: 900px;
+margin: 0 auto
+}
+.prath_header {
+    color: #fff;
+    text-align: center;
+
+background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+    z-index: 9999;
+   
+    width: 100%;
+}
+.site-title a {
+    padding: 13px;
+    display: block;
+
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+a {
+	
+	color:#5851db;
+
+    text-decoration: none;
+}
+
+
+.prathyoush-list{
+
+    display: block;
+
+    text-align: center;
+}
+.prathyoush-face {
+    font-size: 23px;
+    padding: 8px 13px;
+    background-color: #fff;
+    color: #8955fc;
+    margin: 16px;
+    box-shadow: 0 2px 2px 0 #e8e8e8;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    position: relative;
+    vertical-align: baseline;
+      
+    border: 3px solid #eee;
+
+
+}
+.prathyoush-face:hover{
+    border: 3px solid #8955fc;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.site-title a {
+        font-size: 18px;
+        
+    }
+
+
+    
+.container {
+padding: 5px;
+}
+}
+
+
+.prath_footer{
+
+
+background: #000;
+
+padding: 5px;
+bottom: 0px;
+color: #fff;
+text-align: center;
+}
+.prathyoush-list h2{
+
+    color: #8955fc;
+    text-transform: uppercase;
+}
+		/* prathyoush-load
+------------------------- */
+
+.prathyoush-load {
+  font-size: 20px;
+  position: relative;
+  width: 4em;
+  height: 1em;
+  margin: 10px auto;
+}
+
+.prathyoush-load__dot {
+  display: block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.5em;
+  background: #8955fc;
+  position: absolute;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.prathyoush-load__dot:nth-child(1),
+.prathyoush-load__dot:nth-child(2) {
+  left: 0;
+}
+.prathyoush-load__dot:nth-child(3) { left: 1.5em; }
+.prathyoush-load__dot:nth-child(4) { left: 3em; }
+
+@keyframes reveal {
+  from { transform: scale(0.001); }
+  to { transform: scale(1); }
+}
+
+@keyframes slide {
+  to { transform: translateX(1.5em); }
+}
+
+.prathyoush-load__dot:nth-child(1) {
+  animation-name: reveal;
+}
+
+.prathyoush-load__dot:nth-child(2),
+.prathyoush-load__dot:nth-child(3) {
+  animation-name: slide;
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors */
+.prathyoush-load__dot:nth-child(4) {
+  animation-name: reveal;
+  animation-direction: reverse;
+}
+.prathyoush__page{
+    display: none;
+}
+
+
+#back2Top {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    border: none;
+    padding: 10px 12px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 4px 0 0 4px;
+    background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+   
+    color: #fff;
+    display: none; 
+}
+#back2Top:hover {
+  opacity: 0.5;
+}
+     </style>
+    </head>
+    <body>
+   
+   
+
+        <div class="prath_header">
+            <div class="site-branding-text">
+            <p class="site-title"><a href="/" rel="home">Happyface.net</a></p>
+            </div>
+        </div>
+        <div class="prath_cont">
+	          <style>
+	    #prathyoush-alert {
+    background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    position: fixed;
+    right: 1px;
+    top: 42%;
+    display: none;
+
+}

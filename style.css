@@ -205,8 +205,10 @@ background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
     right: 1px;
     top: 42%;
     display: none;
+}
    .post-title,.status-msg-wrap,.blog-pager,.blog-feeds,.widget-item-control {
 display: none;
+	   
 }
   .loadmore{
 text-align:center;
